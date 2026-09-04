@@ -1,7 +1,7 @@
 {
-  "name": "task-management-app",
+  "name": "fatoora-lite",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,13 +12,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "date-fns": "^2.30.0",
-    "@hookform/resolvers": "^3.3.2",
-    "react-hook-form": "^7.48.2",
-    "zod": "^3.22.4",
-    "clsx": "^2.0.0"
+    "qrcode": "^1.5.3"
   },
   "devDependencies": {
+    "@types/qrcode": "^1.5.5",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
